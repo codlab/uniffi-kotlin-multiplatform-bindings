@@ -42,8 +42,8 @@ dependencies {
 
 gradlePlugin {
     plugins {
-        create("ch.ubique.uniffi.plugin") {
-            id = "ch.ubique.uniffi.plugin"
+        create("io.github.codlab.fork.ubique.uniffi.plugin") {
+            id = "io.github.codlab.fork.ubique.uniffi.plugin"
             implementationClass = "ch.ubique.uniffi.plugin.UniffiPlugin"
         }
     }
@@ -73,7 +73,7 @@ private fun getProjectVersion(): String {
 }
 
 buildConfig {
-    packageName = "ch.ubique.uniffi.plugin"
+    packageName = "io.github.codlab.fork.ubique.uniffi.plugin"
 
     forClass("PluginVersions") {
         buildConfigField("String", "RUNTIME_VERSION", "\"${version}\"")

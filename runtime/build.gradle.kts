@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.kotlin.atomicfu)
     `maven-publish`
     alias(libs.plugins.maven.publish)
-    id("ch.ubique.uniffi.plugin")
+    id("io.github.codlab.fork.ubique.uniffi.plugin")
 }
 
 cargo {

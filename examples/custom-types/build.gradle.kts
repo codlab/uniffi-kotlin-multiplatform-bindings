@@ -5,7 +5,7 @@ plugins {
     kotlin("multiplatform")
 	alias(libs.plugins.kotlin.atomicfu)
     // alias(libs.plugins.android.library)
-	id("ch.ubique.uniffi.plugin")
+	id("io.github.codlab.fork.ubique.uniffi.plugin")
 }
 
 uniffi {

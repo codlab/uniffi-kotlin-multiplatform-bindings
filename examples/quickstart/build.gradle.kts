@@ -3,7 +3,7 @@ import ch.ubique.uniffi.plugin.model.RustHost
 
 plugins {
     kotlin("multiplatform")
-	id("ch.ubique.uniffi.plugin")
+	id("io.github.codlab.fork.ubique.uniffi.plugin")
 }
 
 uniffi {
